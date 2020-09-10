@@ -1,5 +1,5 @@
-name: Chord
-description: A new Flutter application.
+name: page_router_transition
+description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,7 +23,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  english_words: ^3.1.5
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -31,18 +30,8 @@ dependencies:
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
-  flutter_launcher_icons: "^0.7.0"
   flutter_test:
     sdk: flutter
-
-
-flutter_icons:
-  ios: true
-  android: true
-  image_path_ios: "assets/launcher/icon.png"
-  image_path_android: "assets/launcher/icon.png"
-  adaptive_icon_background: "assets/launcher/background.png"
-  adaptive_icon_foreground: "assets/launcher/foreground.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
