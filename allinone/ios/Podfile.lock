@@ -1,20 +1,33 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_ble_lib (2.3.0):
+    - Flutter
+    - MultiplatformBleAdapter (~> 0.1.6)
+  - MultiplatformBleAdapter (0.1.6)
   - webview_flutter (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_ble_lib (from `.symlinks/plugins/flutter_ble_lib/ios`)
   - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MultiplatformBleAdapter
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_ble_lib:
+    :path: ".symlinks/plugins/flutter_ble_lib/ios"
   webview_flutter:
     :path: ".symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_ble_lib: 1d400af3aa9ea4b069974cd06c2bafefe0289086
+  MultiplatformBleAdapter: 652f47ecd7f5036756517cf66833210709a72eab
   webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
